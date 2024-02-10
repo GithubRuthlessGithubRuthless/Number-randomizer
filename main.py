@@ -1,8 +1,8 @@
 import random
 import time
-print("Рандомайзер чисел")
+print("Mega number randomizer")
 time.sleep(2)
-rangeone = int(input("Введите 1 число:"))
-rangetwo = int(input("Введите 2 число:"))
+rangeone = int(input("Enter 1 number:"))
+rangetwo = int(input("Enter 2 number:"))
 result = random.randint(rangeone, rangetwo)
 print(result)
